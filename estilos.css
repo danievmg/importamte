@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    margin: 100px auto;
+}
+
+h1 {
+    color: #4b65e7;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    background-color: #4b65e7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b2e97;
+}
+.discourage-message {
+    display: none;
+    font-size: 14px;
+    color: #ff6f61;
+}
+
+/* Estilo para mostrar a mensagem de desencorajamento ao clicar em "Não" */
+button.no-button:focus + .discourage-message {
+    display: block;
+}
+@media screen and (max-width: 480px) {
+    
+}
